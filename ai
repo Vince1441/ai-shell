@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export PYTHONUTF8=1
+/d/anaconda/python.exe "$(dirname "$0")/python ai_cmd.py" "$@"
